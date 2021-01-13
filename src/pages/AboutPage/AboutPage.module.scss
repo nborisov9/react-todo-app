@@ -1,0 +1,30 @@
+.aboutWrapper {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+
+  .title {
+    margin: 0px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .text {
+    margin: 0px 0px 20px 0px;
+    line-height: 27px;
+  }
+
+  transition: all 0.3s linear;
+
+  .button {
+    transition: all 0.2s linear;
+    border: 1px solid rgba(185, 184, 184, 0.5);
+    background-color: #fff;
+    padding: 10px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: rgba(185, 184, 184, 0.158);
+      border: 1px solid rgba(185, 184, 184, 0.616);
+    }
+  }
+}

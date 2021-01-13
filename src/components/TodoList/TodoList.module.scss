@@ -1,0 +1,35 @@
+.todo {
+  &.completed {
+    span {
+      text-decoration: line-through;
+    }
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+  }
+
+  input {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+  }
+
+  margin: 30px 0px 0px 0px;
+  padding: 18px 20px;
+  background: rgb(245, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  span {
+    margin: 0px 0px 0px 20px;
+  }
+}
+
+.todoEmpty {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+  font-size: 28px;
+}
